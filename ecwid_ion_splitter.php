@@ -1,8 +1,8 @@
-<?
+<?php
 /*
  * HTTP requests splitter for Ecwid ION calls
  *
- * https://github.com/makfruit/ecwid_ion_splitter
+ * Github repository: https://github.com/makfruit/ecwid_ion_splitter
  * Ecwid: http://www.ecwid.com
  * Ecwid ION docs: http://kb.ecwid.com/w/page/43696516/Instant%20Order%20Notifications
  */
@@ -28,7 +28,7 @@ foreach ($endpoints as $url) {
   curl_exec($ch);
 }
 
-// CLose connection
+// Close connection
 curl_close($ch);
 
 ?>
