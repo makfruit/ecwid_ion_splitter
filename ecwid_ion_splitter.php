@@ -7,7 +7,6 @@
  * Ecwid ION docs: http://kb.ecwid.com/w/page/43696516/Instant%20Order%20Notifications
  */
 
-
 // Endpoint URLs
 $endpoints = array(
   'http://google.com',
